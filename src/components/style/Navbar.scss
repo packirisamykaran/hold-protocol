@@ -1,0 +1,52 @@
+
+@import "./App.scss";
+
+.navbar{
+
+    
+    background-color: $lightBlue;  
+    border: 1px solid  $border;
+    
+    
+    .logo-navbar{
+        display: flex;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            color: $navy;
+            font-weight:700;
+            font-size: 1.1rem;
+    
+        }
+    }
+    
+
+    .links-button{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+
+       
+
+        .links{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // background-color: aqua;
+
+            .link{
+             text-decoration: none;
+             color: $navy;
+            }
+
+        }
+    }
+        
+}
+
+
+
+
