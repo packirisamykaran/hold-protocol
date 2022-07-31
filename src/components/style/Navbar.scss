@@ -6,9 +6,15 @@
     
     background-color: $lightBlue;  
     border: 1px solid  $border;
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 1rem;
     
     
-    .logo-navbar{
+    
+    .logo-icon{
         display: flex;
         padding: 0.5rem;
         display: flex;
@@ -21,30 +27,105 @@
             font-size: 1.1rem;
     
         }
+
+        img{
+            transition: 0.5s;
+        }
+
+        .navbar-active{
+            transform: rotateZ(450deg);
+        }
     }
     
 
-    .links-button{
-        display: none;
-        flex-direction: column;
-        align-items: center;
 
        
 
-        .links{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            // background-color: aqua;
+    .links{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        // background-color: aqua;
 
-            .link{
-             text-decoration: none;
-             color: $navy;
-            }
+        .link{
+            text-decoration: none;
+            color: $navy;
+            font-weight: 500;
 
         }
     }
+
+
+
+    button{
+        display: none;
+        width: fit-content;
+        align-self: center;
+        display: flex;
+                color: white;
+                background-color: $purple;
+                padding: 0.5rem 0.8rem;
+                border-radius: 5px;
+     
+    }
+
+   
+
+    .links-button-active{
+        display: flex;
         
+    }
+        
+}
+
+
+@media (min-width:800px){
+
+    .navbar{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2% 10%;
+
+        .logo-icon{
+         
+            
+            img{
+                display: none;
+            }
+        }
+
+        
+         
+
+
+        .links{
+            display: flex;
+            flex-direction: row;
+            column-gap: 5%;            
+
+        }
+        
+        .btn-container{
+
+            display: flex;
+            justify-content: center;
+
+            button{
+                
+                
+            }
+        }
+
+       
+    
+
+    }
+    .navbar>*{
+        width: 100%;
+    }
 }
 
 
