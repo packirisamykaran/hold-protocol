@@ -68,4 +68,20 @@
   padding: 0.2rem;
   text-align: center;
 }
+
+@media (min-width: 800px) {
+  .home {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 2rem;
+  }
+  .home .left-col {
+    width: 40%;
+  }
+  .home .right-col {
+    width: 60%;
+  }
+}
 /*# sourceMappingURL=Home.css.map */

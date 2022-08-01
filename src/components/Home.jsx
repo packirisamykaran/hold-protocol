@@ -59,7 +59,7 @@ export default function Home() {
           </table>
         </div>
         <div className="section">
-          <h3>My Report</h3>
+          <h3>My Reports</h3>
           <table>
             <thead>
               <tr>

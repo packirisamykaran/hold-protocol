@@ -73,3 +73,22 @@
     }
 
 }
+
+@media (min-width:800px){
+
+    .home{
+        flex-direction: row;
+        padding-top: 2rem;
+
+        .left-col{
+            width: 40%;
+        }
+
+        .right-col{
+            
+            width: 60%;
+        }
+    }
+
+   
+}
