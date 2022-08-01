@@ -9,11 +9,11 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
+     <BrowserRouter basename="/hold-protocol">
       <Routes>
         <Route path="/" element={<Navbar/>}>
-          <Route path="/home" element={<Home/>}/>
-         <Route path="/report" element={<Report/>}/>
+          <Route  index element={<Home/>}/>
+          <Route path="report" element={<Report/>}/>
          </Route>
       </Routes>
      </BrowserRouter>

@@ -79,14 +79,23 @@
     .home{
         flex-direction: row;
         padding-top: 2rem;
+        
 
         .left-col{
             width: 40%;
+
+            .sidebar{
+                font-size: 1.1rem;
+            }
         }
 
         .right-col{
             
             width: 60%;
+
+            .section{
+                font-size: 1.1rem;
+            }
         }
     }
 

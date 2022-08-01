@@ -80,8 +80,14 @@
   .home .left-col {
     width: 40%;
   }
+  .home .left-col .sidebar {
+    font-size: 1.1rem;
+  }
   .home .right-col {
     width: 60%;
+  }
+  .home .right-col .section {
+    font-size: 1.1rem;
   }
 }
 /*# sourceMappingURL=Home.css.map */
