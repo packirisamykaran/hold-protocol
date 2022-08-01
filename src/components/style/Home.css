@@ -71,6 +71,10 @@
   text-align: center;
 }
 
+.home .right-col .section table th {
+  text-transform: capitalize;
+}
+
 @media (min-width: 800px) {
   .home {
     -webkit-box-orient: horizontal;

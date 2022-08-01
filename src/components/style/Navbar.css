@@ -164,6 +164,7 @@ button {
             flex-direction: row;
     -webkit-column-gap: 5%;
             column-gap: 5%;
+    font-size: 1.1rem;
   }
   .navbar .btn-container {
     display: -webkit-box;
@@ -177,6 +178,7 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: 1.1rem;
   }
   .navbar > * {
     width: 100%;
