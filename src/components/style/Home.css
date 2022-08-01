@@ -43,7 +43,9 @@
 }
 
 .home .left-col .sidebar {
-  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .home .left-col .sidebar .list .item {
@@ -76,12 +78,17 @@
         -ms-flex-direction: row;
             flex-direction: row;
     padding-top: 2rem;
+    -webkit-column-gap: 3rem;
+            column-gap: 3rem;
   }
   .home .left-col {
-    width: 40%;
+    width: 30%;
   }
   .home .left-col .sidebar {
     font-size: 1.1rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .home .right-col {
     width: 60%;

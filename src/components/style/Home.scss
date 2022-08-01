@@ -31,8 +31,7 @@
 
         .sidebar{
 
-            width: 60%;
-            
+            align-items: center;
 
             .list{
                 
@@ -79,13 +78,16 @@
     .home{
         flex-direction: row;
         padding-top: 2rem;
+
+        column-gap: 3rem;
         
 
         .left-col{
-            width: 40%;
+            width: 30%;
 
             .sidebar{
                 font-size: 1.1rem;
+                align-items: flex-start;
             }
         }
 
