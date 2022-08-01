@@ -7,6 +7,18 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  background-color: #6558f5;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
 .navbar {
   background-color: #dfe6ed;
   border: 1px solid #c3cfd9;
@@ -72,26 +84,49 @@
   font-weight: 500;
 }
 
-.navbar button {
+.navbar .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .btn-container button {
   display: none;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   color: white;
   background-color: #6558f5;
   padding: 0.5rem 0.8rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar .btn-container .links-button-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navbar .links-button-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.outlet-container {
+  padding: 1rem;
+}
+
+.outlet-container > * {
+  max-width: 1000px;
+  margin-inline: auto;
 }
 
 @media (min-width: 800px) {
@@ -106,7 +141,15 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 2% 10%;
+    padding: 2% 7%;
+  }
+  .navbar .logo-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .navbar .logo-icon img {
     display: none;
@@ -129,6 +172,11 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .navbar .btn-container button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .navbar > * {
     width: 100%;

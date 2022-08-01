@@ -1,6 +1,16 @@
 
 @import "./App.scss";
 
+button{
+    width: fit-content;       
+    color: white;
+    background-color: $purple;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
 .navbar{
 
     
@@ -11,6 +21,9 @@
     flex-direction: column;
     align-items: stretch;
     row-gap: 1rem;
+
+
+    
     
     
     
@@ -58,17 +71,25 @@
 
 
 
-    button{
-        display: none;
-        width: fit-content;
-        align-self: center;
+   .btn-container{
         display: flex;
-                color: white;
-                background-color: $purple;
-                padding: 0.5rem 0.8rem;
-                border-radius: 5px;
-     
-    }
+        justify-content: center;
+        button{
+            display: none;
+            width: fit-content;  
+            align-self: center;
+            color: white;
+            background-color: $purple;
+            padding: 0.5rem 0.8rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .links-button-active{
+            display: flex;
+            
+        }
+   }
 
    
 
@@ -80,6 +101,17 @@
 }
 
 
+
+.outlet-container{
+    // background-color: rgb(247, 247, 247);
+    padding: 1rem;
+}
+.outlet-container>*{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+
 @media (min-width:800px){
 
     .navbar{
@@ -87,9 +119,14 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 2% 10%;
+        padding: 2% 7%;
+        
 
         .logo-icon{
+            display: flex;
+            justify-content: center;
+
+            
          
             
             img{
@@ -104,7 +141,7 @@
         .links{
             display: flex;
             flex-direction: row;
-            column-gap: 5%;            
+            column-gap: 5%;  
 
         }
         
@@ -114,9 +151,10 @@
             justify-content: center;
 
             button{
-                
-                
+                display: flex;
             }
+
+          
         }
 
        

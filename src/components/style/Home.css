@@ -1,0 +1,71 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 4rem;
+}
+
+.home .left-col, .home .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+}
+
+.home .left-col .section, .home .left-col .sidebar, .home .right-col .section, .home .right-col .sidebar {
+  border: 2px solid #c3cfd9;
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+}
+
+.home .left-col .sidebar {
+  width: 60%;
+}
+
+.home .left-col .sidebar .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.home .left-col .sidebar .list .item .volume {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.home .right-col .section table {
+  font-size: 0.9rem;
+}
+
+.home .right-col .section table th, .home .right-col .section table td {
+  border: 2px solid #c3cfd9;
+  padding: 0.2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=Home.css.map */

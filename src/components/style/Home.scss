@@ -1,0 +1,75 @@
+@import "./App.scss";
+
+
+.home{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+
+
+    .left-col, .right-col{
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+
+        .section, .sidebar{
+            border: 2px solid $border;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            
+            
+        }
+
+      
+    }
+
+    .left-col{
+
+        .sidebar{
+
+            width: 60%;
+            
+
+            .list{
+                
+
+                .item{
+                    display: flex;
+                    // justify-content: space-between;
+                    column-gap: 0.5rem;
+
+                    .volume{
+                        font-weight: 500;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+       
+    }
+
+
+    .right-col{
+
+        .section{
+
+            table{
+
+                font-size: 0.9rem;
+
+
+                th, td{
+                    border: 2px solid $border;
+                    padding: 0.2rem;
+                    text-align: center;
+                }
+            }
+        }
+        
+    }
+
+}
