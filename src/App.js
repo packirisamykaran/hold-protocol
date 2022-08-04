@@ -4,6 +4,7 @@ import { Routes, Route} from "react-router-dom";
 import "./components/style/App.css"
 import Report from "./components/Report";
 import Home from "./components/Home";
+import Transaction from "./components/Transaction";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar/>}>
           <Route  index element={<Home/>}/>
+          <Route path="transaction" element={<Transaction/>}/>
           <Route path="report" element={<Report/>}/>
          </Route>
       </Routes>

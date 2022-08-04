@@ -1,0 +1,156 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.transaction-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 3rem;
+}
+
+.transaction-page .left-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+}
+
+.transaction-page .left-col .sidebar {
+  border: 2px solid #c3cfd9;
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transaction-page .left-col .sidebar .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.transaction-page .left-col .sidebar .item .volume {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.transaction-page .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  border: 2px solid #c3cfd9;
+  background-color: #dfe6ed;
+  padding: 1rem;
+}
+
+.transaction-page .right-col .transaction-options-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transaction-page .right-col .transaction-options-info .transaction-options button {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+  background-color: white;
+  color: #6558f5;
+  border: 1px solid #6558f5;
+  text-transform: capitalize;
+}
+
+.transaction-page .right-col .transaction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  background-color: white;
+  border: 2px solid #c3cfd9;
+  padding: 0.5rem;
+}
+
+.transaction-page .right-col .transaction img {
+  width: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.transaction-page .right-col .transaction .currency-volume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.transaction-page .right-col .transaction .currency-volume input {
+  border: 2px solid #c3cfd9;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.2rem;
+  outline: #6558f5;
+}
+
+.transaction-page .right-col .transaction .currency-volume select {
+  border: 2px solid #c3cfd9;
+  border-radius: 5px;
+  padding: 0.1rem;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 800px) {
+  .transaction-page {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 2rem;
+    -webkit-column-gap: 4rem;
+            column-gap: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=Transaction.css.map */

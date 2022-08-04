@@ -36,7 +36,7 @@ export default function Navbar() {
             
             <div className="links" id="links">
                 <NavLink className="link" onClick={navbarToggle} to="/" >Home</NavLink>
-                <NavLink className="link" onClick={navbarToggle} to="">Deposit/Withdraw</NavLink>
+                <NavLink className="link" onClick={navbarToggle} to="transaction">Deposit/Withdraw</NavLink>
                 <NavLink className="link" onClick={navbarToggle} to="report">Report</NavLink>
                 <NavLink className="link" onClick={navbarToggle} to="">Stake</NavLink>
             </div>
