@@ -3,7 +3,7 @@ import "./style/Report.css"
 
 export default function Report() {
 
-  const reportHeading = ["reportID",  "wallet", "address", "token", "time", "status", "details" ];
+  const reportHeading = ["reportID", "wallet", "address", "token", "time", "status", "details"];
   const latestTransactionHeading = ["wallet", "address", "txHash", "token", "time", "type", "action"]
 
   return (
@@ -20,10 +20,10 @@ export default function Report() {
         <table>
           <thead>
             <tr>
-              {reportHeading.map((head, index)=>{
+              {reportHeading.map((head, index) => {
                 let heading = null;
-                if(head==="reportID"){
-                  heading="report ID"
+                if (head === "reportID") {
+                  heading = "report ID"
                 }
 
                 return <th key={head}>{heading || head}</th>
@@ -32,7 +32,7 @@ export default function Report() {
           </thead>
           <tbody>
             <tr>
-              {reportHeading.map((head, index)=>{
+              {reportHeading.map((head, index) => {
                 return <td key={head}>{index}</td>
               })}
             </tr>
@@ -57,10 +57,10 @@ export default function Report() {
         <table>
           <thead>
             <tr>
-              {reportHeading.map((head, index)=>{
+              {reportHeading.map((head, index) => {
                 let heading = null;
-                if(head==="reportID"){
-                  heading="report ID"
+                if (head === "reportID") {
+                  heading = "report ID"
                 }
 
                 return <th key={head}>{heading || head}</th>
@@ -69,7 +69,7 @@ export default function Report() {
           </thead>
           <tbody>
             <tr>
-              {reportHeading.map((head, index)=>{
+              {reportHeading.map((head, index) => {
                 return <td key={head}>{index}</td>
               })}
             </tr>

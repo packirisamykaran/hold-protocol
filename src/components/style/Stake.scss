@@ -1,0 +1,101 @@
+@import "./App.scss";
+
+
+
+
+.stake{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+
+    .left-col, .right-col{
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+
+        .sidebar{
+            border: 2px solid $border;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            align-items: center;
+            
+            .list{
+                
+
+                .item{
+                    display: flex;
+                    // justify-content: space-between;
+                    column-gap: 0.5rem;
+
+                    .volume{
+                        font-weight: 500;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+      
+    }
+
+    .right-col{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        border: 2px solid $border;
+        background-color: $lightBlue;
+        padding: 1rem;
+
+
+        .stakeoption-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .stakeoption{
+                button{
+                    font-size: 0.8rem;
+                    padding: 0.5rem;
+                    border-radius: 2px;
+                    background-color: white;
+                    color: $purple;
+                    border: 1px solid $purple;
+                    text-transform: capitalize;
+                }
+            }
+
+            img{
+                width: 25px;
+            }
+        }
+
+        .staking{
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            background-color: white;
+            border: 2px solid $border;
+            padding: 0.5rem;
+
+            .container{
+                display: flex;
+                align-items: center;
+                padding: 0.2rem;
+
+                border: 2px solid $border;
+
+                input{
+                    width: 70%;
+                    outline: none;
+                    padding: 0 2rem;
+                }
+            }
+        }
+
+
+    }
+
+}

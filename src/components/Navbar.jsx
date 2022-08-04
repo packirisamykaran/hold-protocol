@@ -38,7 +38,7 @@ export default function Navbar() {
                 <NavLink className="link" onClick={navbarToggle} to="/" >Home</NavLink>
                 <NavLink className="link" onClick={navbarToggle} to="transaction">Deposit/Withdraw</NavLink>
                 <NavLink className="link" onClick={navbarToggle} to="report">Report</NavLink>
-                <NavLink className="link" onClick={navbarToggle} to="">Stake</NavLink>
+                <NavLink className="link" onClick={navbarToggle} to="stake">Stake</NavLink>
             </div>
             <div className="btn-container">
                 <button id='btn'>Connect Wallet</button>  

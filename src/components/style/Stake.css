@@ -1,0 +1,131 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.stake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 4rem;
+}
+
+.stake .left-col, .stake .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+}
+
+.stake .left-col .sidebar, .stake .right-col .sidebar {
+  border: 2px solid #c3cfd9;
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stake .left-col .sidebar .list .item, .stake .right-col .sidebar .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.stake .left-col .sidebar .list .item .volume, .stake .right-col .sidebar .list .item .volume {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.stake .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  border: 2px solid #c3cfd9;
+  background-color: #dfe6ed;
+  padding: 1rem;
+}
+
+.stake .right-col .stakeoption-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stake .right-col .stakeoption-info .stakeoption button {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+  background-color: white;
+  color: #6558f5;
+  border: 1px solid #6558f5;
+  text-transform: capitalize;
+}
+
+.stake .right-col .stakeoption-info img {
+  width: 25px;
+}
+
+.stake .right-col .staking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  background-color: white;
+  border: 2px solid #c3cfd9;
+  padding: 0.5rem;
+}
+
+.stake .right-col .staking .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.2rem;
+  border: 2px solid #c3cfd9;
+}
+
+.stake .right-col .staking .container input {
+  width: 70%;
+  outline: none;
+  padding: 0 2rem;
+}
+/*# sourceMappingURL=Stake.css.map */

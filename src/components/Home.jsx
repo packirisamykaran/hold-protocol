@@ -36,7 +36,7 @@ export default function Home() {
           <table>
             <thead>
               <tr>
-                {sectionHeader.map((head, index)=>{
+                {sectionHeader.map((head, index) => {
                   return <th key={head}>{head}</th>
                 })}
               </tr>
@@ -63,7 +63,7 @@ export default function Home() {
           <table>
             <thead>
               <tr>
-                {sectionHeader.map((head, index)=>{
+                {sectionHeader.map((head, index) => {
                   return <th key={head}>{head}</th>
                 })}
               </tr>
