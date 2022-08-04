@@ -15,7 +15,7 @@
         row-gap: 1rem;
 
         .sidebar{
-            border: 2px solid $border;
+            // border: 2px solid $border;
             padding: 0.5rem;
             display: flex;
             flex-direction: column;
@@ -39,6 +39,15 @@
         }
 
       
+
+    }
+
+    .left-col{
+        border: 2px solid $border;
+        padding: 1rem;
+        align-items: center;
+        
+       
     }
 
     .right-col{
@@ -64,6 +73,7 @@
                     color: $purple;
                     border: 1px solid $purple;
                     text-transform: capitalize;
+                    
                 }
             }
 
@@ -92,6 +102,12 @@
                     outline: none;
                     padding: 0 2rem;
                 }
+
+
+            }
+
+            button{
+                width: 100%;
             }
         }
 
