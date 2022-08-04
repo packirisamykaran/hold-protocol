@@ -94,6 +94,10 @@
   text-transform: capitalize;
 }
 
+.transaction-page .right-col .transaction-options-info img {
+  width: 25px;
+}
+
 .transaction-page .right-col .transaction {
   display: -webkit-box;
   display: -ms-flexbox;

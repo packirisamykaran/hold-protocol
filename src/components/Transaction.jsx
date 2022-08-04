@@ -38,7 +38,7 @@ export default function Transaction() {
                             return <button key={option}>{option}</button>;
                         })}
                     </div>
-                    <img src="https://www.flaticon.com/free-icon/info_471713" alt="I" />
+                    <img src={"https://cdn-icons-png.flaticon.com/512/471/471713.png"} alt="I" />
                 </div>
                 <div className="transaction">
                     <h4>{currentTransactionOption}</h4>

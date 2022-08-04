@@ -99,3 +99,18 @@
     }
 
 }
+
+@media (min-width:800px){
+
+    .stake{
+        flex-direction: row;
+        padding-top: 2rem;
+
+        column-gap: 4rem;
+        justify-content: center;
+
+    }
+
+
+
+}

@@ -128,4 +128,19 @@
   outline: none;
   padding: 0 2rem;
 }
+
+@media (min-width: 800px) {
+  .stake {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 2rem;
+    -webkit-column-gap: 4rem;
+            column-gap: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=Stake.css.map */
